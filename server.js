@@ -15,7 +15,7 @@ app.set('view engine', 'hbs');
 app.get('/', function(req, res) {
 
     res.render('home', {
-        nombre: 'Víctor'
+        nombre: 'Víctor Izquierdo'
     });
 
 });
